@@ -67,7 +67,7 @@ async function parteB() {
 
   // El "system instruction" le da contexto/rol al modelo ANTES del prompt
   const model = genAI.getGenerativeModel({
-    model: "gemini-2.0-flash",
+    model: "gemini-2.5-flash-lite",
     systemInstruction:
       "Sos un médico clínico explicando resultados de laboratorio a un paciente. " +
       "Usá lenguaje simple, evitá jerga técnica innecesaria. " +
@@ -96,7 +96,7 @@ async function parteC() {
   // TODO 2: Creá un model con un systemInstruction que defina un rol biomédico.
   //         Ejemplos: patólogo, radiólogo, bioinformático, farmacólogo...
   const model = genAI.getGenerativeModel({
-    model: "gemini-2.0-flash",
+    model: "gemini-2.5-flash-lite",
     // TODO: Agregá un systemInstruction aquí
   });
 

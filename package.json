@@ -1,0 +1,27 @@
+{
+  "name": "felix-vischi-ia-biomedica",
+  "version": "1.0.0",
+  "description": "Repositorio de la materia.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/entrega/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Felixvischi/Felix-Vischi-IA-Biomedica.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+
+  "bugs": {
+    "url": "https://github.com/Felixvischi/Felix-Vischi-IA-Biomedica/issues"
+  },
+  "homepage": "https://github.com/Felixvischi/Felix-Vischi-IA-Biomedica#readme",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^17.3.1"
+  }
+}
