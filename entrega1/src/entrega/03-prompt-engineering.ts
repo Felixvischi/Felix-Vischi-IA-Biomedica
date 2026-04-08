@@ -200,13 +200,8 @@ async function parteE() {
   // BONUS: ¿Podés hacer que el modelo detecte si le falta información
   //        y la pida explícitamente en vez de inventarla?
 
-  const miSystemInstruction = ""; // <-- TODO: Tu system instruction
-  const miPrompt = ""; // <-- TODO: Tu prompt
-
-  if (!miPrompt) {
-    console.log("\n⚠️  Completá el TODO 2 para correr esta parte.\n");
-    return;
-  }
+  const miSystemInstruction = "Sos un médico internista experto analizando casos clínicos complejos. Tu respuesta debe incluir: 1) Diagnóstico principal, 2) Diagnósticos diferenciales, 3) Pruebas adicionales necesarias. Pensá paso a paso."; // <-- TODO: Tu system instruction
+  const miPrompt = CASO_CLINICO; // <-- TODO: Tu prompt
 
   await llamar(
     miPrompt,

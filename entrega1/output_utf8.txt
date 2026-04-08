@@ -1,0 +1,11 @@
+﻿
+> entrega1@1.0.0 start:llm:01
+> node --experimental-specifier-resolution=node --loader ts-node/esm src/entrega/01-primera-llamada.ts
+
+[dotenv@17.3.1] injecting env (1) from .env -- tip: ÔÜÖ´©Å  enable debug logging with { debug: true }
+=== PARTE A: Llamada B├ísica ===
+
+Prompt: "┬┐Qu├® es la hemoglobina y cu├íl es su funci├│n principal?"
+
+Enviando al modelo...
+

@@ -41,7 +41,7 @@ async function parteA() {
   console.log("=== PARTE A: Llamada Básica ===\n");
 
   // Usamos el modelo Gemini 1.5 Flash (gratuito, rápido)
-  const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
+  const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash-lite" });
 
   // Un prompt simple
   const prompt = "¿Qué es la hemoglobina y cuál es su función principal?";
